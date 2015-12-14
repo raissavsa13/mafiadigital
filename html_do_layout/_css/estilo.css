@@ -44,46 +44,6 @@ p, a, label{
 	display: block;
 	background:;
 	}
-/* End hide from IE-mac */
-	
-#barra_governo {
-	background-image: url("images/barra_governo_linha.png")!important; 
-	background-repeat:repeat-x;
-		background-repeat-x: repeat;
-		background-repeat-y: no-repeat;
-	background: #00602E;
-	height: 1.75em;
-	width: 100%; 
-	min-width: 990px;
-	}
-
-#barra_governo {
-	background: #00602E;
-	}
-	
-#barra_governo .logo {
-	font-size:16px !important;
-    background: url("images/barra_governo_logo.png") no-repeat scroll 0 0 transparent;
-    display: block;
-	height: 1.714em; 
-	margin-top: 0.280em;
-	width: 6.8em;
-	}
-
-#barra_governo .ai { 
-	font-size:16px !important;
-    background: url("images/barra_governo_ai.png") no-repeat scroll 0 0 transparent;
-    display: block;
-	height: 1.714em;
-	margin-top: 0.280em;
-	width: 10em;
-	}
-
-#barra_governo li {
-	float: right;
-	margin-right: 0.214em;
-	} 
-
 .w990{
 	width: 61.8em;
 	margin: 0 auto;
@@ -269,8 +229,8 @@ font-size: 100%;
 	}
 }
 h1{
-font-size: 26x;
-margin-left: 10px;
+font-size: 30px;
+margin-right: 10px;
 font-family: Segoe UI;
 font-weight: lighter;
 
@@ -394,9 +354,9 @@ aside{
 
 .texto{
 	text-align: left;
-	width:300px;
+	width:0px;
 	float: right;
-	margin: 0px;
+	margin: 300px;
 	padding: 0px;
 
 }
