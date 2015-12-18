@@ -44,46 +44,6 @@ p, a, label{
 	display: block;
 	background:;
 	}
-/* End hide from IE-mac */
-	
-#barra_governo {
-	background-image: url("images/barra_governo_linha.png")!important; 
-	background-repeat:repeat-x;
-		background-repeat-x: repeat;
-		background-repeat-y: no-repeat;
-	background: #00602E;
-	height: 1.75em;
-	width: 100%; 
-	min-width: 990px;
-	}
-
-#barra_governo {
-	background: #00602E;
-	}
-	
-#barra_governo .logo {
-	font-size:16px !important;
-    background: url("images/barra_governo_logo.png") no-repeat scroll 0 0 transparent;
-    display: block;
-	height: 1.714em; 
-	margin-top: 0.280em;
-	width: 6.8em;
-	}
-
-#barra_governo .ai { 
-	font-size:16px !important;
-    background: url("images/barra_governo_ai.png") no-repeat scroll 0 0 transparent;
-    display: block;
-	height: 1.714em;
-	margin-top: 0.280em;
-	width: 10em;
-	}
-
-#barra_governo li {
-	float: right;
-	margin-right: 0.214em;
-	} 
-
 .w990{
 	width: 61.8em;
 	margin: 0 auto;
@@ -174,19 +134,8 @@ th,td{
 {
 	border: 0;
 }
-#barra-brasil div,#barra-brasil a,#barra-brasil ul,#barra-brasil li
-{
-	border: 0;
-	font-family: inherit;
-	font-size: 100%;
-	margin: 0;
-	padding: 0;
-	vertical-align: baseline;
-}
-#barra-brasil ul
-{
-	list-style: none;
-}
+
+
 @font-face
 {
 	font-family: "Open Sans";
@@ -194,19 +143,7 @@ th,td{
 	font-weight: 700;
 	src: local("Open Sans Bold"),local("OpenSans-Bold"),url("//barra.brasil.gov.br/static/opensans-bold.woff") format("woff");
 }
-#barra-brasil
-{
-	background: #f1f1f1;
-	font-family: "Open Sans",Arial,Helvetica,sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	height: 32px;
-	line-height: 32px;
-}
-#barra-brasil a
-{
-	text-decoration: none;
-}
+
 div#wrapper-barra-brasil
 {
 	margin: 0 auto;
@@ -215,52 +152,8 @@ div#wrapper-barra-brasil
 	position: relative;
 	width: 100%;
 }
-#barra-brasil .brasil-flag
-{
-	border-right: 2px solid #dfdfdf;
-	float: left;
-	height: 19px;
-	padding: 7px 0 6px;
-	width: 115px;
-	background: url("_imagens/download.png") 10px center no-repeat;
-}
-#barra-brasil .brasil-flag .link-barra
-{
-	
-	display: block;
-	line-height: 19px;
-	padding-left: 42px;
-	text-transform: uppercase;
-	width: 43px;
-}
-#barra-brasil .acesso-info
-{
-	left: 130px;
-	position: absolute;
-}
-#barra-brasil .list
-{
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-#barra-brasil .list .first
-{
-	border-left: 2px solid #dfdfdf;
-}
-#barra-brasil .list-item
-{
-	display: inline-block;
-padding: 0px 15px 0px 13px;
-height: 32px;
-border-right: 2px solid #DFDFDF;
-font-size: 100%;
 
-}
-#barra-brasil .link-barra
-{
-	color: #606060;
-}
+
 @media screen and (max-width: 668px)
 {
 	#barra-brasil .list
@@ -269,8 +162,8 @@ font-size: 100%;
 	}
 }
 h1{
-font-size: 26x;
-margin-left: 10px;
+font-size: 30px;
+margin-right: 10px;
 font-family: Segoe UI;
 font-weight: lighter;
 
@@ -394,9 +287,9 @@ aside{
 
 .texto{
 	text-align: left;
-	width:300px;
+	width:0px;
 	float: right;
-	margin: 0px;
+	margin: 300px;
 	padding: 0px;
 
 }
