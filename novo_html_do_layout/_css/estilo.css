@@ -1,0 +1,329 @@
+/*FONTS*/
+ul, li, ol{
+	list-style: none;
+	}
+	
+html, body, #content {
+	height: 100%;
+	white-space: normal;
+	}
+	
+body > #content {
+	height: auto; 
+	min-height: 100%;
+	}
+	
+html,body { 
+	margin: 0; 
+	padding: 0; 
+	min-height: 100%; 
+	font-size: 1em; 
+	line-height: 1.4em; 
+	font-family: 'SegoeUI', Arial, Helvetica !important;
+	}
+
+
+p, a, label{
+	color: #333333;
+	font-size: 14px;
+}
+
+/* CLEAR FIX*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	
+	}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {
+	display: block;
+	background:;
+	}
+.w990{
+	width: 61.8em;
+	margin: 0 auto;
+	}
+
+	
+#hearder{
+	min-width: 990px;
+	width: 100%; 
+	height:4.786em; 
+	margin: 0 auto; 
+	padding: 0.714em 0; 
+	background-color: #33A95B;
+	display: block;
+	
+}
+
+.acesso-reitoria{
+	display: block; 
+	width: 100%; 
+	height: 100%;
+	}
+	
+#logo{
+	width: 23.429em;
+	height: 4.786em; 
+	float: left; 
+	background: url("_imagens/logo.png") no-repeat scroll 0 0 transparent;
+    background-color: red;
+	}
+
+#logo-reitoria{
+	width: 350px;
+	height: 80px; 
+	float: left; 
+	background-color: red;
+	background: url("_imagens/logo.png") no-repeat 50px;
+	}
+
+#container {
+	margin-top: 7%;
+	margin-bottom: 7%;
+	margin-left: 30%;
+	margin-right: 30%;
+	background: white;
+	text-align: justify;
+   
+}
+
+#container h2{
+	padding-top: 8;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#658404;
+	text-align:center;
+}
+.top20{
+	margin-top:20px
+	}
+
+element.style {	
+	float: left;
+	}
+	
+#social {
+	float: left;
+	width: 100%;
+	text-align: right;
+	margin-top: 20px;
+	border-top: 1px solid #ccc;
+	padding: 10px 0;
+	}
+	
+.assinatura {
+	float:left;
+}
+
+
+.back-gray{
+	background: #EEE;
+}
+
+th,td{
+    width:50%;
+    text-align:left;
+    border: 1px solid;
+    
+}
+{
+	border: 0;
+}
+
+
+@font-face
+{
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Open Sans Bold"),local("OpenSans-Bold"),url("//barra.brasil.gov.br/static/opensans-bold.woff") format("woff");
+}
+
+div#wrapper-barra-brasil
+{
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+
+
+@media screen and (max-width: 668px)
+{
+	#barra-brasil .list
+	{
+		top: -100px;
+	}
+}
+h1{
+font-size: 30px;
+margin-right: 10px;
+font-family: Segoe UI;
+font-weight: lighter;
+
+
+}
+p{
+margin-right: 50px;
+}
+.img{
+	float: right;
+	margin-top: 7%;
+	margin-bottom: 7%;
+	margin-left: 22%;
+	margin-right: 25%;
+}
+.salas{
+	margin-left: 22%;
+	margin-right: 25%;
+}
+aside{
+    float: left;
+    width: 273px;
+    margin-top: 100px;
+    margin-left: 10%;
+
+       }
+
+.menuLatareal li{
+
+	max-width: 690px !important;
+    margin-bottom: 190px;
+    margin-left: 22px;
+    margin: 10px;
+
+ 
+}
+
+a{
+	text-decoration: none;
+}
+.conteudo{
+	width: 720px;
+	float: right;
+	margin-top: 100px;
+	margin-right: 10%;
+}
+
+}
+hr{
+	height: 2px;
+    background: #F00 none repeat scroll 0% 0%;
+    border:0;
+}
+b{
+	font-size: 11px;
+	font-family: 
+}
+footer{
+	background: #EEE none repeat scroll 0% 0%;
+	height: 185px; 
+	padding: 10px 0 0 !important;
+	clear: both;
+	/**margin: -3.929em auto 0; **/
+	position: relative;
+	width: 100%;
+
+}
+.banner,.fo2,.assinatura{
+margin-left: 11%;
+padding: 5px;
+}
+.assinatura{
+	border-top: 1px solid #CCC;
+    padding: 10px 0px;
+    width: 80%;
+}
+.w990{
+
+}
+.t1{
+	border-bottom: 2px solid #F00;
+padding-bottom: 15px;
+margin-left: 0;
+font-size: 26x;
+
+}
+.t2{
+border-bottom: 2px solid #51C951;
+padding-bottom: 15px;
+font-size: 26x;
+
+}
+.t4{
+padding-bottom: 19px;
+border-bottom: 2px solid #F00;
+padding-bottom: 19px;
+font-size: 24px;
+margin-left: 0;
+}
+.t5{
+border-bottom: 2px solid #C98951;
+padding-bottom: 15px;
+margin-left: 0;
+font-size: 26x;
+
+}
+a:hover {
+    text-decoration: none;
+    color: gray;
+      
+}
+aside{
+	margin-bottom:30%;
+}
+.t3{
+	border-bottom: 2px solid #F00;
+	padding-bottom: 18px;
+	margin-left: 0;
+	font-size: 24px;
+}
+
+.texto{
+	text-align: left;
+	width:0px;
+	float: right;
+	margin: 300px;
+	padding: 0px;
+
+}
+.endereco{
+	font-size: 15px;
+}
+.maps{
+	margin-top:40px;
+
+
+}
+<style type="text/css" media="all">background: 8px center no-repeat;text-transform:uppercase;</style>
+<style type="text/css">
+			     #menu ul {
+  					float:left
+				  	width:100%;
+				  list-style:none;
+				 }
+				  #menu ul li { display: inline; 
+				  }
+
+				#menu ul li a {
+				    padding: 4px 4px;
+				    display: inline-block;
+				 
+				    /* visual do link */
+				    color: #000000;
+				    text-decoration: none;
+				    border-bottom:3px solid #9ACD32;
+				    font-size: 0.7cm
+				}#menu ul li a:hover {
+				    background-color:#FFFAFA;
+				    color:#000000;
+				    border-bottom:3px solid #228B22;
+					font-size: 1.0cm				
+				}
+		</style>
