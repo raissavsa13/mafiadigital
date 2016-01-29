@@ -12,7 +12,7 @@ p, a, label{
 }
 	/*w990 é o que faz o logo do ifpe ficar naquela ´posição e o #hearder é as configuraçoesdo logo! \*/
 .w990{
-	width: 61.8em;
+	width: 95.4em;
 	margin: 0 auto;
 	}	
 #hearder{
@@ -36,6 +36,7 @@ margin-right: 50px;
 .conteudo{
 	width: 720px;
 	margin-left:20%;
+	margin-bottom: 100px;
 	text-align: justify;
 }
 b{
@@ -46,7 +47,8 @@ footer{
 	background: #33A95B none repeat scroll 0% 0%;
 	height: 100px; 
 	padding-left: 20%;
-	position: static;
+	position: fixed;
+	bottom: 0;
 	width: 100%;
 }
 .t1{
@@ -73,7 +75,7 @@ body{
 .menu{
 	list-style:none; 
 	border:1px solid #c0c0c0; 
-	float:left; width: 616px; 
+	float:left; width: 625px; 
 	margin-left:20%;}
 
 .menu li{
